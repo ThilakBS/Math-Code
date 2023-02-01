@@ -12,7 +12,6 @@ class Test(unittest.TestCase):
 
 
 	def test_proportion_of_4_5(self):
-	# covers points 1 and 5
 		boolean_series = self.exercise.games['average_user_rating'] == 4.5
 		true_result = boolean_series.mean()
 		user_result = self.exercise.proportion_of_ratings_4_5
